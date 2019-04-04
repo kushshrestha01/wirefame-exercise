@@ -1,2 +1,2 @@
 'use strict';
-alert('Hi js is linked.');
+//alert('Hi js is linked.');
