@@ -1,10 +1,38 @@
-
+/* Entire body */
 body {
   padding: 0;
   margin: 0;
   width:100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header */
+header {
+  background-color: grey;
+  color: white;
+}
+
+header img{
+  margin-right: 30px;
+}
+
+ul {
+  width: 960px;
+  margin: 0 auto;
+  padding:12px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+a {
+  text-decoration:none;
+  color: #aaa;
+}
+
+/* main */
 main {
   width: 960px;
   margin: 0 auto;
@@ -14,32 +42,9 @@ main div img:first-child {
   margin-top: 30px;
 }
 
-header {
-  background-color: black;
-  color: white;
-}
-
-footer {
-  background-color: black;
-}
-
-li {
-  display: inline;
-}
-
-footer {
-  padding: 10px;
-}
-
-ul {
-  width: 960px;
-  margin: 0 auto;
-  border:1px solid orange;
-  padding:12px;
-}
-
+/* sub banner */
 section img {
-  width:30.96%;
+  width:30.9%;
   margin-right: 30px;
   display:inline-block;
   margin-top: 30px;
@@ -49,6 +54,7 @@ section img:last-child{
   margin-right: 0;
 }
 
+/* main featured section */
 #textOnSide section{
   display:inline-block;
   width:400px;
@@ -58,7 +64,9 @@ section img:last-child{
 p {
   height:320px;
   overflow: scroll;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  font-style: italic;
 }
 
 #textOnSide {
@@ -66,14 +74,21 @@ p {
 }
 
 button {
-  font-size: 20px;
+  border: none;
+  font-size: 18px;
   background-color:black;
   color:white;
-
+  padding: 10px 30px;
+  border-radius: 3px;
+  transition: 350ms;
 }
 
 button:hover{
-  background-color:white;
-  color:black;
-  
+  background-color: green;
+}
+
+/* footer */
+footer {
+  background-color: grey;
+  height:100px;
 }
