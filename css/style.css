@@ -1,18 +1,17 @@
 
 body {
-  background-color: rgb(54, 75, 75);
   padding: 0;
   margin: 0;
   width:100%;
 }
+
 main {
   width: 960px;
-  border:1px solid black;
   margin: 0 auto;
 }
 
 main div img:first-child {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 header {
@@ -36,17 +35,45 @@ ul {
   width: 960px;
   margin: 0 auto;
   border:1px solid orange;
-  padding:0;
+  padding:12px;
 }
 
 section img {
-  width:30.75%;
+  width:30.96%;
   margin-right: 30px;
   display:inline-block;
+  margin-top: 30px;
 }
 
 section img:last-child{
   margin-right: 0;
 }
 
-/* box */
+#textOnSide section{
+  display:inline-block;
+  width:400px;
+  margin-left:30px;
+}
+
+p {
+  height:320px;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
+#textOnSide {
+  margin-bottom:30px;
+}
+
+button {
+  font-size: 20px;
+  background-color:black;
+  color:white;
+
+}
+
+button:hover{
+  background-color:white;
+  color:black;
+  
+}
