@@ -6,10 +6,10 @@ body {
   width:100%;
 }
 main {
-  width: 60%;
+  width: 960px;
+  border:1px solid black;
   margin: 0 auto;
 }
-
 
 main div img:first-child {
   margin-bottom: 30px;
@@ -17,10 +17,7 @@ main div img:first-child {
 
 header {
   background-color: black;
-  color:white;
-  text-align: center;
-  margin-top: 50px;
-  border-top: 50px;
+  color: white;
 }
 
 footer {
@@ -29,6 +26,27 @@ footer {
 
 li {
   display: inline;
+}
+
+footer {
+  padding: 10px;
+}
+
+ul {
+  width: 960px;
+  margin: 0 auto;
+  border:1px solid orange;
+  padding:0;
+}
+
+section img {
+  width:30.75%;
+  margin-right: 30px;
+  display:inline-block;
+}
+
+section img:last-child{
+  margin-right: 0;
 }
 
 /* box */
